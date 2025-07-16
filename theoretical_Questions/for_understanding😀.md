@@ -39,3 +39,10 @@ Dheere dheere bachcha samajh jaata hai ki kese balance banana hai — trial & er
 
 Technical Example: Self Driving Car, AlphaGo, Chess AI
 Ek agent environment se interact karta hai — reward/punishment ke basis pe seekhta hai.
+
+2 . Linear Regression ek statistical method hai jo 2 variables ke beech relation nikalta hai, assume karta hai ki woh linear hai (seedha line).
+
+Ek hi variable ho toh Simple Linear Regression
+Multiple variables ho toh Multiple Linear Regression.
+
+3. Gradient Descent hai — ek optimization algorithm jo Cost Function ko minimize karta hai.
