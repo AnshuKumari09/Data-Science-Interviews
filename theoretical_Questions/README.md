@@ -33,3 +33,11 @@ Q2 . Difference Between AI, ML, DL, Data Science
 A supervised ML algorithm that finds the best-fit straight line to predict a continuous target variable based on input features.
 Equation: Y = wX + b
 Goal: Minimize error (MSE) using gradient descent.
+
+### Q4 . ### Logistic Regression
+A supervised ML algorithm for binary classification that predicts probability using the sigmoid function and makes final decisions using a threshold.
+
+
+### Q5. Gradient Descent
+An optimization algorithm that adjusts model parameters (weights/bias) step-by-step to minimize the cost function by moving in the direction of steepest descent, controlled by the learning rate.
+
