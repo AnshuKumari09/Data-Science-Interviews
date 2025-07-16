@@ -46,3 +46,17 @@ Ek hi variable ho toh Simple Linear Regression
 Multiple variables ho toh Multiple Linear Regression.
 
 3. Gradient Descent hai — ek optimization algorithm jo Cost Function ko minimize karta hai.
+
+### Q4.  Logistic Regression
+Socho tum ek doctor ho. Tumhare paas patient ke BMI aur age ka data hai. Tumhe predict karna hai — patient ko diabetes hai ya nahi?
+Ab problem kya hai?
+
+Linear Regression to continuous value predict karta hai — jaise ghar ka price.
+
+Par tumhe yahan 0 ya 1 (Diabetes ya No Diabetes) nikalna hai!
+
+Toh agar tum simple Linear Regression lagao, toh kuch patients ke liye output -0.2 aa sakta hai, kisi ke liye 1.8 — jo valid probability nahi hai!
+Tumhe chahiye output 0 se 1 ke beech — probability ki form mein.
+
+👉 Yahin pe Logistic Regression aata hai.
+Ye Linear Regression ka sigmoid version hai — output ko squeeze karke 0 se 1 ke beech laata hai.
