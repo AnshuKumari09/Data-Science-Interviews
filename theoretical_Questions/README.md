@@ -28,3 +28,8 @@ Q2 . Difference Between AI, ML, DL, Data Science
 | ------- | ----------------------------- | --------------------------------- | --------------------------------------- | ---------------------------------- |
 | What?   | Any machine doing smart tasks | Subset of AI that learns patterns | Subset of ML using deep neural networks | Uses ML + Stats + Domain Knowledge |
 | Example | Chess robot                   | Email spam filter                 | Self-driving car perception             | Analyzing customer churn           |
+
+### Q3 . Linear Regression
+A supervised ML algorithm that finds the best-fit straight line to predict a continuous target variable based on input features.
+Equation: Y = wX + b
+Goal: Minimize error (MSE) using gradient descent.
