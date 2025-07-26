@@ -60,3 +60,48 @@ Tumhe chahiye output 0 se 1 ke beech — probability ki form mein.
 
 👉 Yahin pe Logistic Regression aata hai.
 Ye Linear Regression ka sigmoid version hai — output ko squeeze karke 0 se 1 ke beech laata hai.
+
+Normalisation
+Normalization ek process hai jisme hum sab features ko ek jaisi range (0–1 ya -1 to 1) me le aate hai taaki model sabko barabar samjhe.
+Normalization kab karte hain?
+✅ Jab: 
+Features ki scale alag-alag ho (jaise cm aur kg)
+Distance-based algorithms use ho rahe ho (e.g., KNN, K-Means, SVM, Neural Networks)
+❌ Jab:
+Tree-based models use ho rahe ho (e.g., Decision Tree, Random Forest) — inme scale matter nahi karta.
+
+ Common Methods of Normalization:
+1️⃣ Min-Max Scaling
+Sabhi values ko 0 se 1 ke beech scale karta hai
+
+Useful when data me outliers nahi hote
+
+🧮 Formula:
+X′ = (X − Xₘᵢₙ) / (Xₘₐₓ − Xₘᵢₙ)
+
+2️⃣ Z-Score Normalization (Standardization)
+Data ko mean 0 aur standard deviation 1 me convert karta hai
+
+Useful when data is normally distributed
+
+🧮 Formula:
+Z = (X − μ) / σ
+(jahaan μ = mean, σ = standard deviation)
+
+3️⃣ Robust Scaling
+Median aur IQR ka use karta hai
+
+Useful when outliers present ho data me
+
+🧮 Formula:
+X′ = (X − Median) / IQR
+
+4️⃣ MaxAbs Scaling
+Sabhi values ko [-1, 1] range me convert karta hai
+
+Useful for sparse data (jisme 0s zyada ho)
+
+🧮 Formula:
+X′ = X / |Xₘₐₓ|
+
+
